@@ -1,0 +1,8 @@
+
+class Expedicion {
+	
+	int expedicionOscilante(Nave naveExploradora, int frecuecia, int amplitud){
+		return 1;
+	}
+
+}

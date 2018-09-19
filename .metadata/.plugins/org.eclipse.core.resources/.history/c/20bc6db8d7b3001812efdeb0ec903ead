@@ -1,7 +1,0 @@
-import java.util.function.IntConsumer;
-class MoverseAl {
-	public void mover(Nave nave, IntConsumer method){
-		
-	}
-
-}

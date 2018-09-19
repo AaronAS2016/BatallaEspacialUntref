@@ -1,0 +1,15 @@
+
+class Expedicion {
+	
+	int expedicionOscilante(Nave naveExploradora, int frecuecia, int amplitud){
+		
+		//Declaramos radar
+		Radar radar = naveExploradora.obtenerRadar();
+		
+		while(radar.escanearOeste() != Espectro.VACIO){
+			
+		}
+		return 1;
+	}
+
+}

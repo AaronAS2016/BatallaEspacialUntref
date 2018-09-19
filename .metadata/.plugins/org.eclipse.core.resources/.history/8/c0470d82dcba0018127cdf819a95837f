@@ -1,0 +1,25 @@
+
+class Expedicion {
+	
+	Nave naveExploradora;
+	
+	public Expedicion(Nave naveExploradora){
+		this.naveExploradora = naveExploradora;
+		this.naveExploradora.despegar();
+	}
+	
+	public int expedicionOscilante(int frecuecia, int amplitud){
+		
+		Radar radar = naveExploradora.obtenerRadar();
+		
+		while(radar.escanearOeste() != Espectro.VACIO){
+			
+			
+		}
+		return 1;
+	}
+	
+	private int oscilarNorteSur(int amplitud, Nave nave){
+		while
+	}
+}

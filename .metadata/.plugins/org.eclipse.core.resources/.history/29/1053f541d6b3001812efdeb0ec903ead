@@ -1,6 +1,0 @@
-
-public interface Moverse{
-	
-	public static void moverse(Nave nave);
-	
-}

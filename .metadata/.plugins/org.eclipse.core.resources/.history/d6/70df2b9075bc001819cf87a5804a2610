@@ -1,0 +1,41 @@
+class Expedicion {
+
+	Nave naveExploradora;
+	Radar radar;
+
+	public Expedicion(Nave naveExploradora) {
+		this.naveExploradora = naveExploradora;
+		this.naveExploradora.despegar();
+		this.naveExploradora.avanzarAlOeste();
+		radar = this.naveExploradora.obtenerRadar();
+	}
+
+	public int expedicionOscilante(int amplitud, int frecuecia) {
+		int pasos = 0;
+		while(radar.escanearOeste() != Espectro.DESCONOCIDO){
+			oscilar(amplitud);
+			for(int i = 0; i < frecuecia; i++){
+				if(radar.escanearOeste() == Espectro.VACIO){
+					naveExploradora.avanzarAlOeste();
+					pasos++;
+				}
+			}
+		}
+		return pasos;
+	}
+
+	private void oscilar(int amplitud) {
+		
+		for(int i = 0; i < amplitud; i ++ ){
+			if(radar.escanearNorte() == Espectro.VACIO){
+				naveExploradora.avanzarAlNorte();
+			}
+		}
+		
+		for(int i = 0; i < amplitud; i ++ ){
+			if(radar.escanearSur() == Espectro.VACIO){
+				naveExploradora.avanzarAlSur();
+			}
+		}
+	}
+}

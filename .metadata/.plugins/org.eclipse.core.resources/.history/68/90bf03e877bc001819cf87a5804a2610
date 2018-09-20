@@ -11,12 +11,12 @@ class Expedicion {
 	}
 
 	public int expedicionOscilante(int amplitud, int frecuencia) {
-		int pasosAlOeste = 0;
+		int pasos = 0;
 		while (radar.escanearOeste() == Espectro.VACIO && pudoOscilar) {
-			pasosAlOeste += desplazarseAlOeste(frecuencia);
+			pasos += desplazarseAlOeste(frecuencia);
 			oscilar(amplitud);
 		}
-		return pasosAlOeste;
+		return pasos;
 	}
 
 	private void oscilar(int amplitud) {

@@ -27,7 +27,7 @@ ___Conjución___(AND o (y)): En java se marca con los símbolos ```&&```. Para q
 ___Disyunción___(AND o (y)): En java se marca con los símbolos ```||```. Para que la condición sea verdadera, una de las condiciones mínimamente tiene que serlo.
 El cortocircuito aparece cuando una es verdadera, si la otra es falsa o verdadera no altera el resultado final, por eso se deja de analizar. 
 
-____Negación____ (NOT) o (no): En java es con el símbolo ```!``` Cambia el resultado de la condición. Ejemplo: ```!false``` => ```true```.
+___Negación___ (NOT) o (no): En java es con el símbolo ```!``` Cambia el resultado de la condición. Ejemplo: ```!false``` => ```true```.
 
 Para realizar los ejercicios separar por términos guiándonos por los paréntesis y analizar cada uno de los términos. 
 

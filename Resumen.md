@@ -19,3 +19,16 @@
 + Precondiciones: Lo que debo de cumplir antes de invocarlo
 + Postcondiciones: Lo que se cumple luego de ejecutarlo.
 
+## Logica
+
+___Conjución___(AND o (y)): En java se marca con los símbolos ```&&```. Para que la condición sea verdadera todas sus partes deben ser verdaderas. 
+¿Cuándo es el cortocircuito? Cuando una es falsa, si una es falsa no hay que seguir analizando el resto de condiciones ya que el resultado va a ser falso.
+
+___Disyunción___(AND o (y)): En java se marca con los símbolos ```||```. Para que la condición sea verdadera, una de las condiciones mínimamente tiene que serlo.
+El cortocircuito aparece cuando una es verdadera, si la otra es falsa o verdadera no altera el resultado final, por eso se deja de analizar. 
+
+____Negación____ (NOT) o (no): En java es con el símbolo ```!``` Cambia el resultado de la condición. Ejemplo: ```!false``` => ```true```.
+
+Para realizar los ejercicios separar por términos guiándonos por los paréntesis y analizar cada uno de los términos. 
+
+
